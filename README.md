@@ -1,3 +1,3 @@
 # Applied Machine Learning
 
-[python excercise](Ex1.md)
+[python exercise](Ex1.md)
