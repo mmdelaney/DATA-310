@@ -1,3 +1,7 @@
 # Applied Machine Learning
 
-[python exercise](Ex1.md)
+##Informal Responses
+
+[Feb 3 Informal Response](Ex1.md)
+
+##Projects
