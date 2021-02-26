@@ -18,11 +18,18 @@ ys = np.array([399.0, 97.0, 347.5, 289.0, 250.0, 229.0], dtype=float)
 model.fit(xs, ys, epochs=1000)
 ```
 
-I created this model to predict the housing prices based on the house's number of bedrooms.  
+I created this model to predict the housing prices based on the house's number of bedrooms. The results are listed in the table below.  
 
 |House|# of Bedrooms|Listed Price|Model-Predicted Price|Price Difference|Good/Bad Deal?|
 |-----|-------------|------------|---------------------|----------------|--------------|
-|Church St.|4|$399,000|$299,104|-$99,896|Good!|
+|Church St.|4|$399,000|$299,104|+$99,896|Bad!|
+|Hudgins|3|$97,000|$236,602|-$139,602|Good!|
+|Mathews|5|$347,500|$361,606|-$14,106|Fair|
+|Mobjack|4|$289,000|$299,104|-$10,104|Fair|
+|Moon|2|$250,000|$174,099|+$75,901|Bad!|
+|New Point Comfort|3|$229,000|$236,602|-$7,602|Fair|
+
+
 
 Church st house - 4 beds - $399,000
 Hudgins house - 3 bed - $97,000
