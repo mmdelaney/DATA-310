@@ -18,10 +18,16 @@ There are 10 neurons in the last layer of the neural network because there are 1
 
 ### Using the mnist drawings dataset (the dataset with the hand written numbers with corresponding labels) answer the following questions: What is the shape of the images training set (how many and the dimension of each)?  What is the length of the labels training set?  What is the shape of the images test set?  Estimate a probability model and apply it to the test set in order to produce the array of probabilities that a randomly selected image is each of the possible numeric outcomes (look towards the end of the basic image classification exercises for how to do this — you can apply the same method applied to the Fashion MNIST dataset but now apply it to the hand written letters MNIST dataset).
 
-* The images training set is made up of 60,000 28x28 images
+* The images training set is made up of 60,000 28x28 pixel images
 * The label trainging set is 60,000 labels long
 * The images test set is made up of 10,000 28x28 images
-* 
+
+Probability Array:
+```
+[1.5553664e-09 2.4440032e-11 3.5364933e-09 3.1780094e-06 6.8846621e-13
+ 1.1672576e-09 1.1497396e-13 9.9999666e-01 4.3803170e-09 1.4980255e-07]
+```
+
 
 ### Use np.argmax() with your predictions object to return the numeral with the highest probability from the test labels dataset.
 
