@@ -10,3 +10,4 @@ When I change the predict function to output for the value of 7, the output was 
 
 ### Using the script you produced to predict housing price, take the provided six houses from Mathews, Virginia and train a neural net model that estimates the relationship between them. Based on this model, which of the six homes present a good deal? Which one is the worst deal? Justify your answer.
 
+```model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])```
