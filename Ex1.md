@@ -30,10 +30,4 @@ I created this model to predict the housing prices based on the house's number o
 |New Point Comfort|3|$229,000|$236,602|-$7,602|Fair|
 
 
-
-Church st house - 4 beds - $399,000
-Hudgins house - 3 bed - $97,000
-Mathews house - 5 bed - $347,500
-Mobjack house - 4 bed - $289,000
-Moon house - 2 bed - $250,000
-New Point Comfort - 3 bed - $229,000
+Based on this model, the Hudgins house is by far the best deal since it is listed at almost $140,000 less than the model predicted.  The worst deal is the Church St. house since it is listed at almost $100,000 over the model's predicted price.  The Moon house is also not a great deal since it is listed at $75,000 over its predicted price.  The remaining houses are all listed at slightly under the prices predicted by the model, so I am considering these fair deals.
