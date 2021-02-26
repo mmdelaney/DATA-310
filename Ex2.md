@@ -7,6 +7,9 @@ The data is subset into training and testing groups so that the model can learn 
 
 ### The fashion MNIST example has increased the number of layers in our neural network from 1 in the past example, now to 3. The last two are .Dense layers that have activation arguments using the relu and softmax functions. What is the purpose of each of these functions. Also, why are there 10 neurons in the third and last layer in the neural network.
 
+The relu function ensures that outputs that are less than 0 get changed to 0 so that negative numbers do not skew the results. The softmax function helps identify the most likely label, or what clothing item an image most likely depicts. Each of the 10 neurons will calculate the probability that a an images matches its unique label, and softmax simplifies the process by setting the largest probability to 1 and the rest of the probablities to 0.
+
+There are 10 neurons in the last layer of the neural network because there are 10 different types of clothing items in the data set.  Therefore, each individual neuron calculates the probability that a particular images matches its specific clothing type.
 
 
 ### In the past example we used the optimizer and loss function, while in this one we are using the function adam in the optimizer argument and sparse_categorical- crossentropy for the loss argument. How do the optimizer and loss functions operate to produce model parameters (estimates) within the model.compile() function?
