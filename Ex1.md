@@ -10,8 +10,19 @@ When I change the predict function to output for the value of 7, the output was 
 
 ### Using the script you produced to predict housing price, take the provided six houses from Mathews, Virginia and train a neural net model that estimates the relationship between them. Based on this model, which of the six homes present a good deal? Which one is the worst deal? Justify your answer.
 
-```model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+```
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
 model.compile(optimizer='sgd', loss='mean_squared_error')
 xs = np.array([4.0, 3.0, 5.0, 4.0, 2.0, 3.0], dtype=float)
 ys = np.array([399.0, 97.0, 347.5, 289.0, 250.0, 229.0], dtype=float)
-model.fit(xs, ys, epochs=1000)```
+model.fit(xs, ys, epochs=1000)
+```
+
+Based on this model,  
+
+Church st house - 4 beds - $399,000
+Hudgins house - 3 bed - $97,000
+Mathews house - 5 bed - $347,500
+Mobjack house - 4 bed - $289,000
+Moon house - 2 bed - $250,000
+New Point Comfort - 3 bed - $229,000
