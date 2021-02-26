@@ -18,7 +18,11 @@ ys = np.array([399.0, 97.0, 347.5, 289.0, 250.0, 229.0], dtype=float)
 model.fit(xs, ys, epochs=1000)
 ```
 
-Based on this model,  
+I created this model to predict the housing prices based on the house's number of bedrooms.  
+
+|House|# of Bedrooms|Listed Price|Model-Predicted Price|Price Difference|Good/Bad Deal?|
+|-----|-------------|------------|---------------------|----------------|--------------|
+|Church St.|4|$399,000|$299,104|-$99,896|Good!|
 
 Church st house - 4 beds - $399,000
 Hudgins house - 3 bed - $97,000
