@@ -32,3 +32,8 @@ Probability Array:
 ### Use np.argmax() with your predictions object to return the numeral with the highest probability from the test labels dataset.
 
 ### Produce a plot of your selected image and the accompanying histogram that illustrates the probability of that image being the selected number
+
+![image](https://user-images.githubusercontent.com/78870884/109400442-c964cd00-7916-11eb-9282-e1ea8265479c.png)
+
+
+
