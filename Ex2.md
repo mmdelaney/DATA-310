@@ -33,7 +33,8 @@ Probability Array:
 
 ### Produce a plot of your selected image and the accompanying histogram that illustrates the probability of that image being the selected number
 
-![image](https://user-images.githubusercontent.com/78870884/109400442-c964cd00-7916-11eb-9282-e1ea8265479c.png)
+![image](https://user-images.githubusercontent.com/78870884/109401258-aab50500-791b-11eb-9863-e5d5d1dbeecb.png)
+
 
 
 
