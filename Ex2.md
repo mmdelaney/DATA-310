@@ -28,12 +28,14 @@ predictions = probability_model.predict(x_test)
 print(predictions[55])
 [0.23196921 0.08533676 0.08533676 0.08533676 0.08533676 0.08533683
  0.08533676 0.08533676 0.08533676 0.08533676]
-np.argmax(predictions[55])
-0
 ```
 
 
 ### Use np.argmax() with your predictions object to return the numeral with the highest probability from the test labels dataset.
+'''
+np.argmax(predictions[55])
+0
+'''
 
 ### Produce a plot of your selected image and the accompanying histogram that illustrates the probability of that image being the selected number
 
