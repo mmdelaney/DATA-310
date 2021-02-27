@@ -24,8 +24,11 @@ There are 10 neurons in the last layer of the neural network because there are 1
 
 Probability Array:
 ```
-[1.5553664e-09 2.4440032e-11 3.5364933e-09 3.1780094e-06 6.8846621e-13
- 1.1672576e-09 1.1497396e-13 9.9999666e-01 4.3803170e-09 1.4980255e-07]
+predictions = probability_model.predict(x_test)
+print(predictions[55])
+[0.23196921 0.08533676 0.08533676 0.08533676 0.08533676 0.08533683
+ 0.08533676 0.08533676 0.08533676 0.08533676]
+np.argmax(predictions[55])
 ```
 
 
