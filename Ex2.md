@@ -40,7 +40,8 @@ np.argmax(predictions[55])
 
 ### Produce a plot of your selected image and the accompanying histogram that illustrates the probability of that image being the selected number
 
-![image](https://user-images.githubusercontent.com/78870884/109401258-aab50500-791b-11eb-9863-e5d5d1dbeecb.png)
+![image](https://user-images.githubusercontent.com/78870884/109401549-66c2ff80-791d-11eb-8dc1-c0ceac5b2c51.png)
+
 
 
 
