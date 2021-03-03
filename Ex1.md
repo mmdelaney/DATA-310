@@ -31,3 +31,6 @@ I created this model to predict the housing prices based on the house's number o
 
 
 Based on this model, the Hudgins house is by far the best deal since it is listed at almost $140,000 less than the model predicted.  The worst deal is the Church St. house since it is listed at almost $100,000 over the model's predicted price.  The Moon house is also not a great deal since it is listed at $75,000 over its predicted price.  The remaining houses are all listed at slightly under the prices predicted by the model, so I am considering these fair deals.
+
+### UPDATE: Using the script you produced to predict housing price, take the provided six houses from Mathews, Virginia and train a neural net model that estimates the relationship between them. Based on this model, which of the six homes present a good deal? Which one is the worst deal? Justify your answer.
+
