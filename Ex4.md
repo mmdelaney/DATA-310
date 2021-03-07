@@ -12,4 +12,7 @@
 
 ## MSE
 
-### 
+### From your 400+ observations of homes for sale, calculate the MSE for the following.
+
+  ### The 10 biggest over-predictions
+  
