@@ -51,6 +51,7 @@ ys = np.array([3.99, 0.970, 3.475, 2.890, 2.50, 2.290], dtype=float)
 model.fit(xs, ys, epochs=1000)
 ```
 
+
 |House|# of Bedrooms|# of Bathrooms|# Sqft|Listed Price|Model-Predicted Price|Price Difference|Good/Bad Deal?|
 |-----|-------------|--------------|------|------------|---------------------|----------------|--------------|
 |Church St.|4|3|3,680|$399,000|$389,905|+9,095|Fair|
@@ -61,4 +62,4 @@ model.fit(xs, ys, epochs=1000)
 |New Point Comfort|3|2|2,840|$229,000|$279,494|-$50,494|Good!|
 
 
-
+Based on the new and improved model, the New Point Comfort house and the Hudgins house are both the best deals since their listed price is over $50,000 under the model-predicted price. The worst deals are now the Mathews and Moon houses since they are listed $41,946 and $89,972 over their model-predicted prices respectively. I decided the remaining Church St. and Mobjack houses were fair deals since their model-predicted prices fell within $20,000 of their listed price.
