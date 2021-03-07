@@ -34,3 +34,31 @@ Based on this model, the Hudgins house is by far the best deal since it is liste
 
 ### UPDATE: Using the script you produced to predict housing price, take the provided six houses from Mathews, Virginia and train a neural net model that estimates the relationship between them. Based on this model, which of the six homes present a good deal? Which one is the worst deal? Justify your answer.
 
+To improve my model, I updated it to include number of bedrooms, number of bathrooms, and squarefeet. The updated code and the new results are listed below.
+
+```
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[3])])
+
+model.compile(optimizer='sgd', loss='mean_squared_error')
+
+x1 = np.array([3.0, 1.0, 2.0, 2.0, 1.0, 2.0], dtype=float) #baths
+x2 = np.array([4.0, 3.0, 5.0, 4.0, 2.0, 3.0], dtype=float) #beds
+x3 = np.array([3.99, 0.97, 3.475, 2.89, 2.50, 2.29], dtype=float) #sqft
+
+xs = np.stack([x1, x2, x3], axis = 1)
+ys = np.array([3.99, 0.970, 3.475, 2.890, 2.50, 2.290], dtype=float)
+
+model.fit(xs, ys, epochs=1000)
+```
+
+|House|# of Bedrooms|# of Bathrooms|# Sqft|Listed Price|Model-Predicted Price|Price Difference|Good/Bad Deal?|
+|-----|-------------|------------|---------------------|----------------|--------------|
+|Church St.|4|3|3,680|$399,000|$389,905|+9,095|Fair|
+|Hudgins|3|1|1,238|$97,000|$163,856|-$66,856|Good!|
+|Mathews|5|2|3,051|$347,500|$305,554|+$41,946|Bad!|
+|Mobjack|4|2|3,524|$289,000|$307,888|-$18,888|Fair|
+|Moon|2|1|1,479|$250,000|$160,028|+$89,972|Bad!|
+|New Point Comfort|3|2|2,840|$229,000|$279,494|-$50,494|Good!|
+
+
+
