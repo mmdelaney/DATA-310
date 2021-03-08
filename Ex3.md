@@ -25,8 +25,9 @@ filter3 =[ [2, -2, 1], [1, -1, -2], [0, 0, 0]]
 
 ![image](https://user-images.githubusercontent.com/78870884/110259982-614a6280-7f78-11eb-9149-53fc494f68a5.png)
 
-### What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? Why is the application of a convolving filter to an image useful for computer vision? Stretch goal: instead of using the misc.ascent() image from scipy, can you apply three filters and weights to your own selected image? Again describe the results.
+### What are you functionally accomplishing as you apply the filter to your original array? 
 
+### Why is the application of a convolving filter to an image useful for computer vision?
 
 
 ### Another useful method is pooling. Apply a 2x2 filter to one of your convolved images, and plot the result. In effect what have you accomplished by applying this filter? Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? Did the resulting image increase in size or decrease? Why would this method be useful? Stretch goal: again, instead of using misc.ascent(), apply the pooling filter to one of your transformed images.
