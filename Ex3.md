@@ -2,11 +2,11 @@
 
 ### Last time you did an exercise (convolutions and pooling) where you manually applied a 3x3 array as a filter to an image of two people ascending an outdoor staircase. Modify the existing filter and if needed the associated weight in order to apply your new filters to the image 3 times. Plot each result, upload them to your response, and describe how each filter transformed the existing image as it convolved through the original array and reduced the object size. 
 
-Original Staircase Image:
+**Original Staircase Image:**
 
 ![image](https://user-images.githubusercontent.com/78870884/110259517-10396f00-7f76-11eb-811d-510249b678b1.png)
 
-Filter 1:
+**Filter 1:**
 ```
 filter1 = [ [-1, -1, -1], [0, 0, -1], [-1, 2, -1]]
 ```
@@ -14,13 +14,15 @@ filter1 = [ [-1, -1, -1], [0, 0, -1], [-1, 2, -1]]
 
 This filter seems to create greater contrast in the image by brightening the lighter parts of the image and making the dark lines more distinct.
 
-Filter 2:
+**Filter 2:**
 ```
 filter2 = [ [0, 1, 0], [0, -1, 0], [1, 1, -1]]
 ```
 ![image](https://user-images.githubusercontent.com/78870884/110259901-fa2cae00-7f77-11eb-9b6f-1ea92b627e83.png)
 
-Filter 3:
+This filter makes the image seem more blurry by making the lines less definied.
+
+**Filter 3:**
 ```
 filter3 =[ [2, -2, 1], [1, -1, -2], [0, 0, 0]]
 ```
