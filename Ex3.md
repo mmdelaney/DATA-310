@@ -20,9 +20,10 @@ filter2 = [ [0, 1, 0], [0, -1, 0], [1, 1, -1]]
 
 Filter 3:
 ```
-
+filter3 =[ [2, -2, 1], [1, -1, -2], [0, 0, 0]]
 ```
 
+![image](https://user-images.githubusercontent.com/78870884/110259982-614a6280-7f78-11eb-9149-53fc494f68a5.png)
 
 ### What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? Why is the application of a convolving filter to an image useful for computer vision? Stretch goal: instead of using the misc.ascent() image from scipy, can you apply three filters and weights to your own selected image? Again describe the results.
 
