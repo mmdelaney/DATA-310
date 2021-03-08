@@ -6,11 +6,17 @@ Original Staircase Image:
 
 ![image](https://user-images.githubusercontent.com/78870884/110259517-10396f00-7f76-11eb-811d-510249b678b1.png)
 
-Filter 1
+Filter 1:
 ```
 filter1 = [ [-1, -1, -1], [0, 0, -1], [-1, 2, -1]]
 ```
 ![image](https://user-images.githubusercontent.com/78870884/110259770-64911e80-7f77-11eb-9e83-6e359792c02f.png)
+
+Filter 2:
+```
+
+```
+
 
 ### What are you functionally accomplishing as you apply the filter to your original array (see the following snippet for reference)? Why is the application of a convolving filter to an image useful for computer vision? Stretch goal: instead of using the misc.ascent() image from scipy, can you apply three filters and weights to your own selected image? Again describe the results.
 
