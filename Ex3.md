@@ -14,6 +14,12 @@ filter1 = [ [-1, -1, -1], [0, 0, -1], [-1, 2, -1]]
 
 Filter 2:
 ```
+filter2 = [ [0, 1, 0], [0, -1, 0], [1, 1, -1]]
+```
+![image](https://user-images.githubusercontent.com/78870884/110259901-fa2cae00-7f77-11eb-9b6f-1ea92b627e83.png)
+
+Filter 3:
+```
 
 ```
 
