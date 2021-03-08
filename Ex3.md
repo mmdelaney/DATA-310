@@ -29,11 +29,11 @@ filter3 =[ [2, -2, 1], [1, -1, -2], [0, 0, 0]]
 
 ![image](https://user-images.githubusercontent.com/78870884/110259982-614a6280-7f78-11eb-9149-53fc494f68a5.png)
 
-This filter makes the images significantly darker to the point where the staircase is almost unrecognizable.
+This filter makes the image significantly darker to the point where the staircase is almost unrecognizable.
 
 ### What are you functionally accomplishing as you apply the filter to your original array? 
 
-When you apply a filter to an image, the filter's 3X3 matrix gets applied to all the original image's pixels. Each pixels is multiplied by a corresponding number within the 3X3 matrix
+When you apply a filter to an image, the filter's 3X3 matrix gets applied to all the original image's pixels. Each pixel is multiplied by a corresponding number within the 3X3 matrix. As a result, the filter creates a uniform alteration to the orignial image that creates an output of the same image with a unique new effect.
 
 ### Why is the application of a convolving filter to an image useful for computer vision?
 
