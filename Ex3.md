@@ -12,6 +12,8 @@ filter1 = [ [-1, -1, -1], [0, 0, -1], [-1, 2, -1]]
 ```
 ![image](https://user-images.githubusercontent.com/78870884/110259770-64911e80-7f77-11eb-9e83-6e359792c02f.png)
 
+This filter seems to create greater contrast in the image by brightening the lighter parts of the image and making the dark lines more distinct.
+
 Filter 2:
 ```
 filter2 = [ [0, 1, 0], [0, -1, 0], [1, 1, -1]]
