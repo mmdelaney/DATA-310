@@ -8,7 +8,11 @@
 
 ### What is the purpose of using a 3x3 filter to convolve across a 2D image matrix?
 
+The purpose of using a 3x3 filter to colvolve across a 2D image matrix is to highlight certain features of an image to make the objects more identifiable (such as horizontal or vertical lines). This makes it easier to train computer vision machine learning models.
+
 ### Why would we include more than one filter? How many filters did you assign as part of your architecture when training a model to learn images of numbers from the mnist dataset?
+
+We could include more than one filter to highlight more than one feature. For example, if we wanted to train a model to identify trees, it would be emphasize vertical lines that could be a trunk as well as horizontal lines that could be branches.  When training the model with the images from the mnist dataset, I think I only used one filter.  
 
 ## MSE
 
