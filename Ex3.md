@@ -57,4 +57,4 @@ The resulting image decreased in size.  The original image was 512X512, and the 
 
 ### Convolve the 3x3 filter over the 9x9 matrix and provide the resulting matrix.
 
-
+cnn_xtra_q.png
