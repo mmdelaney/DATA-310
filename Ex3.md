@@ -45,7 +45,11 @@ I think convolving filters are useful in computer vision because images contain 
 
 ### In effect what have you accomplished by applying this filter? 
 
+By applying the 2X2 filter, I've reduced the size of the image from 512X512 to 256X256. By making the image smaller, it becomes easier to process. However, pooling maintains the identifiable features of the orginial image. It does this by filtering 2X2 blocks of pixels and keeping only 1 of the 4 pixel values.  Therefore, the resulting image is a simplified version of the original that depicts the same features.
+
 ### Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? 
+
+The pooling feature seems to maximize input pixel values. 
 
 ### Did the resulting image increase in size or decrease? Why would this method be useful?
 
