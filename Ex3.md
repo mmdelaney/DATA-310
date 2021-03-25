@@ -60,7 +60,7 @@ The resulting image decreased in size.  The original image was 512X512, and the 
 ![image](https://user-images.githubusercontent.com/78870884/112526114-fa022000-8d77-11eb-991d-ba731a3c5e92.png)
 
 Resulting Matrix:
-'''
+```
 0 0 0 3 0 0 0
 0 0 0 3 0 0 0
 1 1 1 3 1 1 1
@@ -68,4 +68,4 @@ Resulting Matrix:
 1 1 1 3 1 1 1
 0 0 0 3 0 0 0
 0 0 0 3 0 0 0
-'''
+```
