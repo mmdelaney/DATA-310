@@ -50,5 +50,7 @@ MSE w/ just bed, bath, and sqft:  13635133589357.477
 
 
 Orig graphs
+![image](https://user-images.githubusercontent.com/78870884/113357911-ca708c00-9312-11eb-9264-caad4953ea4c.png)
+
 
 
