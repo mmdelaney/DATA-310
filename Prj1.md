@@ -5,7 +5,14 @@
 ### Data
 
 initially, 400 observations
--
+
+one was missing sqft, so dropped
+
+next, looking at descriptive stats noticed one price listed as $350 - thought this seemed really unlikely - probably meant $350,000, but decided to drop - left with 398
+
+also worried about max obs listed at $45,000,000 - but did some investigation, found the address listing online - found that 1 Franklin St is the millenium tower, according to LuxuryBoston.com, the entire 60th floor (aka "The Grand Penthouse") currently for sale - 360 degree balcony w/ views of Boston harbor and Charles river, 8 bedrooms, 12 bathrooms, 7 fireplaces, library, movie and game area, and staff quarters - despite absurdity of thise listing, I determined it was legit and kept it in the data - photos below for fun
+
+
 
 
 |  |Listed Price|Bedrooms|Bathrooms|Square Feet|
