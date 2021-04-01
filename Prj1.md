@@ -47,3 +47,8 @@ After dropping the $350 house, I was left with 398 obervations - descriptive sta
 MSE w/ just bed, bath, and sqft:  13635133589357.477
 
 ### Best/Worst Deals
+
+
+Orig graphs
+
+
