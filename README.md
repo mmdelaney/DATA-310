@@ -12,3 +12,4 @@
 ### Projects
 
 * [Project 1](Prj1.md)
+* [Project 2](Prj2.md)
