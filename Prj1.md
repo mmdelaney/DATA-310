@@ -35,7 +35,7 @@ After dropping the $350 house, I was left with 398 obervations - descriptive sta
 |25%|$501,000|2|1|912|
 |50%|$672,000|2|2|1211|
 |75%|$979,750|3|3|1959.75|
-|Max|$45,000,000|12|$236,602|13,256|
+|Max|$45,000,000|---|12|13,256|
 
 
 ### Model Discription
