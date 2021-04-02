@@ -123,7 +123,7 @@ With these models, the "best deals" are for houses whose listed price falls belo
 Best Deals:
 
 |Address|Actual Price|Preidcted Price|Difference|
-|---|------------|--------|---------|-----------|
+|-------|------------|---------------|----------|
 |99-105 Broad St #2F, Boston, MA 02110|649000|9872379.30298|9223379.30298|
 |66 Chestnut St #11, Boston, MA 02108|1425000|9599894.71436|8174894.71436|
 |65 E India Row APT 27, Boston, MA 02110|3199000|10613516.23535|7414516.23535|
