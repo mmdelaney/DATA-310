@@ -54,6 +54,56 @@ As demonstrated below, this first model did not learn very well since the loss f
 
 ![image](https://user-images.githubusercontent.com/78870884/113357911-ca708c00-9312-11eb-9264-caad4953ea4c.png)
 
+So, I created a second model that included a spacial variable: zipcode. To use zipcode as an input into my model, I had to create 29 separate new binary input variables that captured the 29 different zipcodes in my data. The code I used to create this second model is below.
+
+```
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[32])])
+model.compile(optimizer='sgd', loss='mean_squared_error')
+
+x1 = np.array(homes['beds'], dtype = float)
+x2 = np.array(homes['baths'], dtype = float)
+x3 = np.array(homes['sqft_scale'], dtype = float)
+x4 = np.array(homes['zip1'], dtype = float)
+x5 = np.array(homes['zip2'], dtype = float)
+x6 = np.array(homes['zip3'], dtype = float)
+x7 = np.array(homes['zip4'], dtype = float)
+x8 = np.array(homes['zip5'], dtype = float)
+x9 = np.array(homes['zip6'], dtype = float)
+x10 = np.array(homes['zip7'], dtype = float)
+x11 = np.array(homes['zip8'], dtype = float)
+x12 = np.array(homes['zip9'], dtype = float)
+x13 = np.array(homes['zip10'], dtype = float)
+x14 = np.array(homes['zip11'], dtype = float)
+x15 = np.array(homes['zip12'], dtype = float)
+x16 = np.array(homes['zip13'], dtype = float)
+x17 = np.array(homes['zip14'], dtype = float)
+x18 = np.array(homes['zip15'], dtype = float)
+x19 = np.array(homes['zip16'], dtype = float)
+x20 = np.array(homes['zip17'], dtype = float)
+x21 = np.array(homes['zip18'], dtype = float)
+x22 = np.array(homes['zip19'], dtype = float)
+x23 = np.array(homes['zip20'], dtype = float)
+x24 = np.array(homes['zip21'], dtype = float)
+x25 = np.array(homes['zip22'], dtype = float)
+x26 = np.array(homes['zip23'], dtype = float)
+x27 = np.array(homes['zip24'], dtype = float)
+x28 = np.array(homes['zip25'], dtype = float)
+x29 = np.array(homes['zip26'], dtype = float)
+x30 = np.array(homes['zip27'], dtype = float)
+x31 = np.array(homes['zip28'], dtype = float)
+x32 = np.array(homes['zip29'], dtype = float)
+
+xs = np.stack([x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x13, x14, x15, x16, x17, x18, x19, x20, x21, x22, x23, x24, x25, x26, x27, x28, x29, x30, x31, x32], axis=1)
+ys = np.array(homes['prices_scale'], dtype = float)
+
+history = model.fit(xs, ys, epochs=500)
+```
+
+Despite the tediousness of creating a model with 32 different variables, adding the zipcode inputs significantly improved the quality of my model. As you can see below, the adding the zipcodes helped the model learn and improve in a way it was unable to do in the original model.
+
+
+![image](https://user-images.githubusercontent.com/78870884/113360607-1a9e1d00-9318-11eb-9dab-44a5a78ff974.png)
+
 
 ### Output Analysis
 
@@ -71,7 +121,6 @@ Orig graphs
 
 Zip graphs
 
-![image](https://user-images.githubusercontent.com/78870884/113360607-1a9e1d00-9318-11eb-9dab-44a5a78ff974.png)
 
 ![image](https://user-images.githubusercontent.com/78870884/113360640-2c7fc000-9318-11eb-8cc9-e42072bc9eb1.png)
 
