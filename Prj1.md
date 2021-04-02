@@ -33,7 +33,7 @@ Despite the absurdity of the $45 million listing and its potential to skew my mo
 |Max|$45,000,000|---|12|13,256|
 
 
-### Model Discription
+### Model Description
 
 
 
