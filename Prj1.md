@@ -30,7 +30,7 @@ Despite the absurdity of the $45 million listing and its potential to skew my mo
 |25%|$501,000|2|1|912|
 |50%|$672,000|2|2|1211|
 |75%|$979,750|3|3|1959.75|
-|Max|$45,000,000|---|12|13,256|
+|Max|$45,000,000|9|12|13,256|
 
 
 ### Model Description
@@ -107,22 +107,23 @@ Despite the tediousness of creating a model with 32 different variables, adding 
 
 ### Output Analysis
 
-MSE w/ just bed, bath, and sqft:  13635133589357.477
+Neither of my two models were very accurate. However, my second model that included zipcodes as inputs was more accurate than the first, more simple, model.  As you can see below, the first model did a pretty poor job of predicting listed price and pretty consistently over-predicted the actual price. This model's MSE was 13635133589357.477.
 
-MSE w/ zips: 8768492452983.424
+![image](https://user-images.githubusercontent.com/78870884/113357972-eecc6880-9312-11eb-8425-ddef2d63b419.png)
+
+The second model was nowhere near perfect, but adding zipcodes as inputs did somewhat improve the model's accuracy. This second model also had a smaller MSE than the first: 8768492452983.424 as opposed to 13635133589357.477.   
+
+
+![image](https://user-images.githubusercontent.com/78870884/113360640-2c7fc000-9318-11eb-8cc9-e42072bc9eb1.png)
 
 ### Best/Worst Deals
 
 
 Orig graphs
 
-
-![image](https://user-images.githubusercontent.com/78870884/113357972-eecc6880-9312-11eb-8425-ddef2d63b419.png)
-
 Zip graphs
 
 
-![image](https://user-images.githubusercontent.com/78870884/113360640-2c7fc000-9318-11eb-8cc9-e42072bc9eb1.png)
 
 
 
