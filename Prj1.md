@@ -122,7 +122,7 @@ With these models, the "best deals" are for houses whose listed price falls belo
 
 Best Deals:
 
-|Address|Actual Price|Preidcted Price|Difference|
+|Address|Actual Price|Predicted Price|Difference|
 |-------|------------|---------------|----------|
 |99-105 Broad St #2F, Boston, MA 02110|649000|9872379.30298|9223379.30298|
 |66 Chestnut St #11, Boston, MA 02108|1425000|9599894.71436|8174894.71436|
@@ -137,15 +137,17 @@ Best Deals:
 
 Worst Deals:
 
-|   |Listed Price|Bedrooms|Bathrooms|Square Feet|
-|---|------------|--------|---------|-----------|
-|Count|398|398|398|398|
-|Mean|$1,506,614|2.91|2.58|1938.51|
-|Std|$3,807,347|1.49|1.84|1854.47|
-|Min|$30,000|1|1|520|
-|25%|$501,000|2|1|912|
-|50%|$672,000|2|2|1211|
-|75%|$979,750|3|3|1959.75|
-|Max|$45,000,000|9|12|13,256|
+|Address|Actual Price|Predicted Price|Difference|
+|-------|------------|---------------|----------|
+|82-90 Westland Ave, Boston, MA 02115|38999999|4335472.86987|-34664526.13013|
+|1 Franklin St #GPH, Boston, MA 02110|45000000|13158857.72705|-31841142.27295|
+|8 Mount Vernon Pl, Boston, MA 02108|22500000|9419995.11719|-13080004.88281|
+|300 Pier 4 Blvd PENTHOUSE C, Boston, MA 02210|16500000|4324833.67920|-12175166.32080|
+|776 Boylston St PENTHOUSE 2B, Boston, MA 02199|14500000|4914839.93530|-9585160.06470|
+|2 Avery St #30EF, Boston, MA 02111|10000000|1803755.95093|-8196244.04907|
+|30 Chestnut St, Boston, MA 02108|16995000|9683707.42798|-7311292.57202|
+|22 Liberty Dr PENTHOUSE 1F, Boston, MA 02210|10920000|4856677.24609|-6063322.75391|
+|305 Commonwealth Ave #2, Boston, MA 02115|10900000|4896583.55713|-6003416.44287|
+|146 W Newton St, Boston, MA 02118|6975000|1081259.25064|-5893740.74936|
 
 
