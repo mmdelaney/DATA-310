@@ -5,15 +5,11 @@
 
 ### Data
 
-initially, 400 observations
+Initially, I scraped 400 housing observations Zillow.  Each observation included values for the house's listed price, address, number of bedrooms, number of bathrooms, and number of squarefeet.  One observation was missing a value for number of squarefeet, so I dropped it.
 
-one was missing sqft, so dropped
+As I was investigating the descriptive statistics of my data, I noticed that one home was listed for $350.  I was doubtful that this value was correct.  When I Googled the address and saw that house was a brownstone a few blocks away from the Charles River, I decided that $350 was definitely incorrect.  I assumed there was an error in Zillow and the house was actually suppoused to be listed at $350,000, but I decided to drop that observation just to be safe.
 
-next, looking at descriptive stats noticed one price listed as $350 - thought this seemed really unlikely - did some googling, address, 132 Commonwealth Ave, brownstone a few bloacks away from the charles river probably meant $350,000, but didn't want to assume decided to drop
-
-also worried about max obs listed at $45,000,000 - but did some investigation, found the address listing online - found that 1 Franklin St is the millenium tower, according to LuxuryBoston.com, the entire 60th floor (aka "The Grand Penthouse") currently for sale - 360 degree balcony w/ views of Boston harbor and Charles river, 8 bedrooms, 12 bathrooms, 7 fireplaces, library, movie and game area, and staff quarters - despite absurdity of thise listing, I determined it was legit and kept it in the data - photos below for fun
-
-
+I was also a little worried about my maximum obervation. The most expensive house in my dataset was listed at $45 million. However, when I googled this address, 1 Franklin Street, I discovered that it is Millenium Tower, a luxury apaerment building in downtown Boston. According to LuxuryBoston.com, the building's Grand Penthouse is currently for sale. This property included the entirety of the building's 60th floor and features a 360 degree balcony with views of Boston harbor, 8 bedrooms, 12 bathrooms, 7 fireplaces, a library, a movie and game area, and staff quarters. For fun, I have included some photos of this monstrosity below. 
 
 ![image](https://user-images.githubusercontent.com/78870884/113351414-dbb49b00-9308-11eb-9d0a-2cd84d6f62ff.png)
 
@@ -23,8 +19,7 @@ also worried about max obs listed at $45,000,000 - but did some investigation, f
 
 ![image](https://user-images.githubusercontent.com/78870884/113351350-bf186300-9308-11eb-9a5f-5044a286618a.png)
 
-After dropping the $350 house, I was left with 398 obervations - descriptive stats below
-
+Despite the absurdity of the $45 million listing and its potential to skew my model, I decided to keep the observation since it's a legitimate listing. So, after dropping the $350 house, I was left with 398 obervations. See the descriptive statistics of these observations below.
 
 |   |Listed Price|Bedrooms|Bathrooms|Square Feet|
 |---|------------|--------|---------|-----------|
