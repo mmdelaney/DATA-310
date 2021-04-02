@@ -118,8 +118,34 @@ The second model was nowhere near perfect, but adding zipcodes as inputs did som
 
 ### Best/Worst Deals
 
-With these models, the "best deals" are for houses whose listed price falls below the model-predicted prices. Therefore, the best deals are those that fall in the upper-left quadrants of the graphs above. The "worst deals" are the houses whose listed price is higher than the model-predicted price. These houses are in the lower-right quadrant of the graphs.   
+With these models, the "best deals" are for houses whose listed price falls below the model-predicted prices. Therefore, the best deals are those that fall in the upper-left quadrants of the graphs above. The "worst deals" are the houses whose listed price is higher than the model-predicted price. These houses are in the lower-right quadrant of the graphs.
 
+Best Deals:
 
+|Address|Actual Price|Preidcted Price|Difference|
+|---|------------|--------|---------|-----------|
+|99-105 Broad St #2F, Boston, MA 02110|649000|398|398|398
+|66 Chestnut St #11, Boston, MA 02108|1425000|2.91|2.58|1938.51|
+|65 E India Row APT 27, Boston, MA 02110|3199000|1.49|1.84|1854.47|
+|37 Branch St, Boston, MA 02108|4995000|1|1|520|
+|377 Commonwealth Ave #6, Boston, MA 02115|549000|2|1|912|
+|342 Commonwealth Ave APT 2, Boston, MA 02115|539000|2|2|1211|
+|456 Beacon St APT 4, Boston, MA 02115|750000|3|3|1959.75|
+|7 Albemarle St APT 1, Boston, MA 02115|647000|9|12|13,256|
+|362 Commonwealth Ave APT 2D, Boston, MA 02115|625000$45,000,000|9|12|13,256|
+|103 Gainsborough St APT 103, Boston, MA 02115|885800|9|12|13,256|
+
+Worst Deals:
+
+|   |Listed Price|Bedrooms|Bathrooms|Square Feet|
+|---|------------|--------|---------|-----------|
+|Count|398|398|398|398|
+|Mean|$1,506,614|2.91|2.58|1938.51|
+|Std|$3,807,347|1.49|1.84|1854.47|
+|Min|$30,000|1|1|520|
+|25%|$501,000|2|1|912|
+|50%|$672,000|2|2|1211|
+|75%|$979,750|3|3|1959.75|
+|Max|$45,000,000|9|12|13,256|
 
 
