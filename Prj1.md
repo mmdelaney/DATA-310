@@ -118,11 +118,7 @@ The second model was nowhere near perfect, but adding zipcodes as inputs did som
 
 ### Best/Worst Deals
 
-
-Orig graphs
-
-Zip graphs
-
+With these models, the "best deals" are for houses whose listed price falls below the model-predicted prices. Therefore, the best deals are those that fall in the upper-left quadrants of the graphs above. The "worst deals" are the houses whose listed price is higher than the model-predicted price. These houses are in the lower-right quadrant of the graphs.   
 
 
 
