@@ -118,7 +118,7 @@ The second model was nowhere near perfect, but adding zipcodes as inputs did som
 
 ### Best/Worst Deals
 
-With these models, the "best deals" are for houses whose listed price falls below the model-predicted prices. Therefore, the best deals are those that fall in the upper-left quadrants of the graphs above. The "worst deals" are the houses whose listed price is higher than the model-predicted price. These houses are in the lower-right quadrant of the graphs.
+With these models, the "best deals" are for houses whose listed price falls below the model-predicted prices. Therefore, the best deals are those that fall in the upper-left quadrants of the graphs above. The "worst deals" are the houses whose listed price is higher than the model-predicted price. These houses are in the lower-right quadrant of the graphs.  Below, I've listed the 10 best and worst deals based on my more accurate model that includes zipcodes as inputs.
 
 Best Deals:
 
@@ -135,6 +135,8 @@ Best Deals:
 |362 Commonwealth Ave APT 2D, Boston, MA 02115|$625,000|$4,478,185|$3,853,185|
 |103 Gainsborough St APT 103, Boston, MA 02115|$885,800|$4,709,304|$3,823,504|
 
+There's no way to know for sure why my model overestimated the prices of these listings, but I think it's interesting that these 10 houses all fall within 3 zipcodes: 02110, 02108, and 02115. I would guess that these zipcodes contain many of the most expensive listings in my dataset, which caused the model to overpredict the prices of houses in these areas. 
+
 Worst Deals:
 
 |Address|Actual Price|Predicted Price|Difference|
@@ -150,4 +152,4 @@ Worst Deals:
 |305 Commonwealth Ave #2, Boston, MA 02115|$10,900,000|$4,896,584|-$6,003,416|
 |146 W Newton St, Boston, MA 02118|$6,975,000|$1,081,259|-$5,893,741|
 
-
+Again, there's no way to know for sure why my model underpredicted the prices of these house, but makes sense to me that most of these listings are the most expensive houses in my data. The model could predict that many of these houses were listed at multi-million dollar prices based on their number of baths, number of beds, number of square feet, and location, but there were some aspects of these homes, such as the fact that a few of them are penthouses, that my model cannot capture. Finally, the fact that many of these expensive homes are located in the 02110, 02115, and 02108 zipcodes helps explain why my model consistently overpredicted the prices of the less-expensive listings in these areas.
