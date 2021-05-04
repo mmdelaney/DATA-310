@@ -5,6 +5,9 @@
 
 ### Model 1 - Penalized Logistic Regression
 
+![image](https://user-images.githubusercontent.com/78870884/117078002-12fed900-ad07-11eb-9b7a-d9518ca292f3.png)
+
+
 #### Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce. 
 
 #### Which "top_model" performed the best (had the largest AUC)? 
