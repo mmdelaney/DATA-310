@@ -15,7 +15,7 @@
 #### Which "top_model" performed the best (had the largest AUC)? 
 
 ```
-0.0001   roc_auc hand_till  0.607     1      NA Preprocessor1_Model01
+ 1 0.0001   roc_auc hand_till  0.607     1      NA Preprocessor1_Model01
  2 0.000127 roc_auc hand_till  0.607     1      NA Preprocessor1_Model02
  3 0.000161 roc_auc hand_till  0.607     1      NA Preprocessor1_Model03
  4 0.000204 roc_auc hand_till  0.607     1      NA Preprocessor1_Model04
