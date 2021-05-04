@@ -12,6 +12,9 @@
 
 #### Which "top_model" performed the best (had the largest AUC)? 
 
+![image](https://user-images.githubusercontent.com/78870884/117080267-7a1e8c80-ad0b-11eb-91f3-8ede98ed19af.png)
+
+
 #### Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? 
 
 #### Provide justification for your selected penalty value? Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes.
