@@ -55,7 +55,7 @@ I chose top model 8
 
 #### How did your random forest model fare when compared to the penalized logistic regression? 
 
-![image](https://user-images.githubusercontent.com/78870884/117163992-302cb980-ad92-11eb-8221-b64e1aaf2e4f.png)
+![image](https://user-images.githubusercontent.com/78870884/117164193-636f4880-ad92-11eb-844b-0b114cfd6cd0.png)
 
 
 #### Provide your ROC plots and interpret them. Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
