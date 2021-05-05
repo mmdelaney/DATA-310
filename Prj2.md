@@ -48,7 +48,17 @@ I chose top model 8
 
 ### Model 2 - Random Forest
 
-#### Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors, and the minimal node size, again with wealth as the target. How did your random forest model fare when compared to the penalized logistic regression? Provide your ROC plots and interpret them. Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
+#### Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors, and the minimal node size, again with wealth as the target. 
+
+![image](https://user-images.githubusercontent.com/78870884/117163599-cdd3b900-ad91-11eb-9daf-39e6e18fd11d.png)
+
+
+#### How did your random forest model fare when compared to the penalized logistic regression? 
+
+![image](https://user-images.githubusercontent.com/78870884/117163992-302cb980-ad92-11eb-8221-b64e1aaf2e4f.png)
+
+
+#### Provide your ROC plots and interpret them. Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 
 ### Model 3 - Logistic Regression
 
