@@ -34,7 +34,7 @@ See the results of the top_models below:
 @@@ X top model did the best @@@
 
 
-![image](https://user-images.githubusercontent.com/78870884/117080267-7a1e8c80-ad0b-11eb-91f3-8ede98ed19af.png)
+![image](https://user-images.githubusercontent.com/78870884/117159799-94e61500-ad8e-11eb-8e51-ae0f4ad16b17.png)
 
 
 
