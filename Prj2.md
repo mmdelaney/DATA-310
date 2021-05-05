@@ -58,7 +58,14 @@ I chose top model 8
 ![image](https://user-images.githubusercontent.com/78870884/117164193-636f4880-ad92-11eb-844b-0b114cfd6cd0.png)
 
 
-#### Provide your ROC plots and interpret them. Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
+#### Provide your ROC plots and interpret them. 
+
+![image](https://user-images.githubusercontent.com/78870884/117164445-a0d3d600-ad92-11eb-9504-d9446431c9aa.png)
+
+#### Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
+
+![image](https://user-images.githubusercontent.com/78870884/117164493-aa5d3e00-ad92-11eb-80ae-c89bc76c2ca7.png)
+
 
 ### Model 3 - Logistic Regression
 
