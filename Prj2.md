@@ -31,16 +31,20 @@ See the results of the top_models below:
 15 0.00281  roc_auc hand_till  0.605     1      NA Preprocessor1_Model15
 ```
 
-@@@ X top model did the best @@@
+See the plot of penalty vs area under the roc curve below:
+
 
 
 ![image](https://user-images.githubusercontent.com/78870884/117159799-94e61500-ad8e-11eb-8e51-ae0f4ad16b17.png)
 
-
+I chose top model 8 
 
 #### Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? 
 
 #### Provide justification for your selected penalty value? Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes.
+
+![image](https://user-images.githubusercontent.com/78870884/117162132-8698f880-ad90-11eb-8880-3e0ff360fc50.png)
+
 
 ### Model 2 - Random Forest
 
