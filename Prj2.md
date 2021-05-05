@@ -3,16 +3,15 @@
 
 ## Modeling Liberia's DHS Data
 
-### Model 1 - Penalized Logistic Regression
 
 ![image](https://user-images.githubusercontent.com/78870884/117078002-12fed900-ad07-11eb-9b7a-d9518ca292f3.png)
 
+### Model 1 - Penalized Logistic Regression
 
-#### Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce. 
 
-![image](https://user-images.githubusercontent.com/78870884/117080267-7a1e8c80-ad0b-11eb-91f3-8ede98ed19af.png)
+#### Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce. Which "top_model" performed the best (had the largest AUC)?
 
-#### Which "top_model" performed the best (had the largest AUC)? 
+See the results of the top_models below:
 
 ```
  1 0.0001   roc_auc hand_till  0.607     1      NA Preprocessor1_Model01
@@ -31,6 +30,12 @@
 14 0.00221  roc_auc hand_till  0.606     1      NA Preprocessor1_Model14
 15 0.00281  roc_auc hand_till  0.605     1      NA Preprocessor1_Model15
 ```
+
+@@@ X top model did the best @@@
+
+
+![image](https://user-images.githubusercontent.com/78870884/117080267-7a1e8c80-ad0b-11eb-91f3-8ede98ed19af.png)
+
 
 
 #### Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? 
