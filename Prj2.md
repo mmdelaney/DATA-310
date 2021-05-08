@@ -89,6 +89,32 @@ recall                    0.000000
 global_step             100.000000
 ```
 
+###### Wealth 1
+
+###### Wealth 2
+
+###### Wealth 3
+
+###### Wealth 4
+
+###### Wealth 5
+
+```
+accuracy                  0.912000
+accuracy_baseline         0.912000
+auc                       0.786384
+auc_precision_recall      0.218301
+average_loss              0.260940
+label/mean                0.088000
+loss                      0.260940
+precision                 0.000000
+prediction/mean           0.101946
+recall                    0.000000
+global_step             100.000000
+```
+
+
+
 ### Analysis of 4 Models
 
 #### Analyze all four models. According to the evaluation metrics, which model produced the best results? Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
