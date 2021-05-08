@@ -63,7 +63,10 @@ Looking at the ROC curves, the dotted diagonal lines show what each curve would 
 
 #### How did your random forest model fare when compared to the penalized logistic regression? 
 
+See the graph comparing the AUCs of the penalized logistic regression model to those of the random forest model:
+
 ![image](https://user-images.githubusercontent.com/78870884/117164193-636f4880-ad92-11eb-844b-0b114cfd6cd0.png)
+
 
 
 #### Provide your ROC plots and interpret them. 
