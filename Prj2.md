@@ -3,6 +3,7 @@
 
 ## Modeling Liberia's DHS Data
 
+For this project, I chose to analyze DHS data from Liberia. I created multiple models to predict wealth in Liberia based on factors such as age, gender, education, and household size. The plot below shows the wealth distribution of the entire sample.
 
 ![image](https://user-images.githubusercontent.com/78870884/117078002-12fed900-ad07-11eb-9b7a-d9518ca292f3.png)
 
