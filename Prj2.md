@@ -48,7 +48,6 @@ Based on a number of factors, I selected model 8 with a penalty value of 0.00053
 #### Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes?
 
 See the ROC curves for model 8 (penalty 0.000530) below:
-
 ![image](https://user-images.githubusercontent.com/78870884/117162132-8698f880-ad90-11eb-8880-3e0ff360fc50.png)
 
 
