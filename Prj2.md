@@ -92,6 +92,20 @@ The plot above shows that age is the most important factor in predicting a surve
 
 
 ###### Wealth 1
+```
+accuracy                  1.000000
+accuracy_baseline         0.716000
+auc                       1.000000
+auc_precision_recall      1.000000
+average_loss              0.089900
+label/mean                0.284000
+loss                      0.089900
+precision                 1.000000
+prediction/mean           0.296313
+recall                    1.000000
+global_step             100.000000
+```
+
 
 ###### Wealth 2
 
