@@ -74,7 +74,7 @@ Based on the graph above, the penalized logistic regression model performed very
 See the random forest model ROC plots below:
 ![image](https://user-images.githubusercontent.com/78870884/117164445-a0d3d600-ad92-11eb-9504-d9446431c9aa.png)
 
-
+Similar to the penalized logistic regression model, the random forest model was much better at predicting wealth groups 1 and 5 than it was at predicting groups 2, 3, and 4.  However, when comparing the ROC curves of the penalized logistic regression model to those of the random forest model, it looks as though the random forest model was slightly better at predicting wealth categories 2, 3, and 4, but not by much. Again, the two models performed very similarly.
 
 #### Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 
