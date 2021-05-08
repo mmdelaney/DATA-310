@@ -34,7 +34,7 @@ See the results of the top_models below:
 15 0.00281  roc_auc hand_till  0.605     1      NA Preprocessor1_Model15
 ```
 
-Based on just the top_models output, all the models between Model 1 and Model 10 have the same AUC of 0.607.
+Based on just the top_models output, all the models between Model 1 and Model 10 have the same AUC of 0.607. So, with only this data, it is difficult to determine which specific model performed the best.
 
 
 See the plot of penalty vs area under the roc curve below:
@@ -43,11 +43,17 @@ See the plot of penalty vs area under the roc curve below:
 
 #### Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? Provide justification for your selected penalty value.
 
-I chose top model 8 : AUC 0.607. penalty 0.000530 - in penalty vs AUC plot, auc decreases at model 8 - models 1-10 similar - model before drop off - removed some irrelevant predictors, but pretty similar - also, looked at the ROC curves and model 8 seemed to have largest AUC among the models, but based on eye-balled estimation
+Based on a number of factors, I selected model 8 with a penalty value of 0.000530. The results of top-models output were not definitive since models 1-10 were so similar, so I looked at the penalty vs. area under the roc curve plot above. I found that there was a slight drop-off in the graph at model 8, which suggests that this model was able to eliminate some irrelevant predictors.  I also looked at the ROC curves for each of the models, and I found that model 8 resulted in a slightly larger AUC than the other modelsm though this assessment was based on my eye-balled estimation.
 
 #### Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes?
 
+See the ROC curves for model 8 (penalty 0.000530) below:
+
 ![image](https://user-images.githubusercontent.com/78870884/117162132-8698f880-ad90-11eb-8880-3e0ff360fc50.png)
+
+
+
+-dotted diagonal lines show what curve would be if the model was predicting with the same accuracy as random guessing - further cruve bends to the upper-left/ further it is from that 45 degree line, the better the model can predict wealth
 
 
 ### Model 2 - Random Forest
