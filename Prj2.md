@@ -52,9 +52,7 @@ See the ROC curves for model 8 (penalty 0.000530) below:
 ![image](https://user-images.githubusercontent.com/78870884/117162132-8698f880-ad90-11eb-8880-3e0ff360fc50.png)
 
 
-
--dotted diagonal lines show what curve would be if the model was predicting with the same accuracy as random guessing - further cruve bends to the upper-left/ further it is from that 45 degree line, the better the model can predict wealth
-
+Looking at the ROC curves, the dotted diagonal lines show what each curve would be if the model predicted wealth with the same accuracy as it would predict by randomly guessing. Therefore, the further the ROC curve is from that middle 45 degree line, or the further the curve bends to the upper-left corner of the graph, the better the model can predict that wealth category. Based on the plots above, the model is clearly best at predicting wealth group 5, and is fairly decent at predicting wealth group 1 as well. This is interesting considering that wealth group 5 contains the wealthiest individuals and wealth group 1 contains the least wealthy individuals. The model is much worse at predicting wealth groups 2, 3, and 4. For wealth groups 2 and 3, the model's predictions were barely distinguishable from its random-guessing accuracy would have been. Therefore, the model is clearly much worse at predicting the middle-wealth categories.
 
 ### Model 2 - Random Forest
 
