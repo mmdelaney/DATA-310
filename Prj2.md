@@ -90,19 +90,6 @@ The plot above shows that age is the most important factor in predicting a surve
 
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 
-```
-accuracy                  0.908000
-accuracy_baseline         0.908000
-auc                       0.811626
-auc_precision_recall      0.322199
-average_loss              0.261181
-label/mean                0.092000
-loss                      0.261181
-precision                 0.000000
-prediction/mean           0.093931
-recall                    0.000000
-global_step             100.000000
-```
 
 ###### Wealth 1
 
