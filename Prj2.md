@@ -15,6 +15,8 @@ For this project, I chose to analyze DHS data from Liberia. I created multiple m
 See the results of the top_models below:
 
 ```
+    penalty .metric .estimator  mean     n std_err .config              
+      <dbl> <chr>   <chr>      <dbl> <int>   <dbl> <chr>   
  1 0.0001   roc_auc hand_till  0.607     1      NA Preprocessor1_Model01
  2 0.000127 roc_auc hand_till  0.607     1      NA Preprocessor1_Model02
  3 0.000161 roc_auc hand_till  0.607     1      NA Preprocessor1_Model03
@@ -32,17 +34,18 @@ See the results of the top_models below:
 15 0.00281  roc_auc hand_till  0.605     1      NA Preprocessor1_Model15
 ```
 
+Based on just the top_models output, all the models between Model 1 and Model 10 have the same AUC of 0.607.
+
+
 See the plot of penalty vs area under the roc curve below:
 
+![image](https://user-images.githubusercontent.com/78870884/117159799-94e61500-ad8e-11eb-8e51-ae0f4ad16b17.png) 
 
+#### Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? Provide justification for your selected penalty value.
 
-![image](https://user-images.githubusercontent.com/78870884/117159799-94e61500-ad8e-11eb-8e51-ae0f4ad16b17.png)
+I chose top model 8 : AUC 0.607. penalty 0.000530 - in penalty vs AUC plot, auc decreases at model 8 - models 1-10 similar - model before drop off - removed some irrelevant predictors, but pretty similar - also, looked at the ROC curves and model 8 seemed to have largest AUC among the models, but based on eye-balled estimation
 
-I chose top model 8 
-
-#### Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? 
-
-#### Provide justification for your selected penalty value? Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes.
+#### Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes?
 
 ![image](https://user-images.githubusercontent.com/78870884/117162132-8698f880-ad90-11eb-8880-3e0ff360fc50.png)
 
