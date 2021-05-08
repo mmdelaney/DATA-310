@@ -66,11 +66,14 @@ See the graph comparing the AUCs of the penalized logistic regression model to t
 
 ![image](https://user-images.githubusercontent.com/78870884/117164193-636f4880-ad92-11eb-844b-0b114cfd6cd0.png)
 
+Based on the graph above, the penalized logistic regression model performed very similarly to the random forest model. Though each model's accuracy varied between the different wealth groups, I would say that overall, neither model outperformed the other.
 
 
 #### Provide your ROC plots and interpret them. 
 
 ![image](https://user-images.githubusercontent.com/78870884/117164445-a0d3d600-ad92-11eb-9504-d9446431c9aa.png)
+
+
 
 #### Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 
