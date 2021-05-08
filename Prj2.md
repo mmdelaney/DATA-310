@@ -80,7 +80,7 @@ Similar to the penalized logistic regression model, the random forest model was 
 
 ![image](https://user-images.githubusercontent.com/78870884/117164493-aa5d3e00-ad92-11eb-80ae-c89bc76c2ca7.png)
 
-
+The plot above shows that age is the most important factor in predicting a surveyed individual's wealth. Education is also a fairly important factor. Gender is the least important predictive factor.
 
 ### Model 3 - Logistic Regression
 
