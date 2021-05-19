@@ -86,6 +86,55 @@ The plot above shows that age is the most important factor in predicting a surve
 
 #### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. Then continue with your linear classifier adding the derived feature columns you have selected in order to extend capturing combinations of correlations (instead of learning on single model weights for each outcome). Again produce your ROC curves and interpret the results.
 
+###### Wealth 1
+```
+'accuracy': 0.6883451, 'average_loss': 0.59280825, 'loss': 0.5929089, 'global_step': 11310
+'accuracy': 0.6947325, 'average_loss': 0.59023005, 'loss': 0.59037584, 'global_step': 11310
+```
+
+![image](https://user-images.githubusercontent.com/78870884/118855527-d7861200-b8a3-11eb-8821-d514bee26123.png)
+
+
+###### Wealth 2
+
+```
+'accuracy': 0.73396933, 'average_loss': 0.57869893, 'loss': 0.5787238, 'global_step': 11310
+'accuracy': 0.7342182, 'average_loss': 0.57552284, 'loss': 0.57555425, 'global_step': 11310
+```
+
+![image](https://user-images.githubusercontent.com/78870884/118856281-c5f13a00-b8a4-11eb-9610-f9c749102692.png)
+
+
+###### Wealth 3
+
+```
+'accuracy': 0.7888013, 'average_loss': 0.5132873, 'loss': 0.51334107, 'global_step': 11310
+'accuracy': 0.78987974, 'average_loss': 0.5146776, 'loss': 0.5147191, 'global_step': 11310
+```
+
+![image](https://user-images.githubusercontent.com/78870884/118857072-a3135580-b8a5-11eb-9c3d-81c2f9184843.png)
+
+
+###### Wealth 4
+
+```
+'accuracy': 0.8763169, 'average_loss': 0.36728418, 'loss': 0.367226, 'global_step': 11310
+'accuracy': 0.8763998, 'average_loss': 0.36444348, 'loss': 0.36440453, 'global_step': 11310
+```
+
+![image](https://user-images.githubusercontent.com/78870884/118857768-6a27b080-b8a6-11eb-8fc4-dc1d77a32a26.png)
+
+
+###### Wealth 5
+
+```
+'accuracy': 0.90825385, 'average_loss': 0.2762886, 'loss': 0.2762716, 'global_step': 11310
+accuracy': 0.90825385, 'average_loss': 0.2731264, 'loss': 0.2730774, 'global_step': 11310
+```
+
+![image](https://user-images.githubusercontent.com/78870884/118859052-cb03b880-b8a7-11eb-83df-e99e0310cb32.png)
+
+
 ### Model 4 - Gradient Boosting
 
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
