@@ -140,7 +140,7 @@ accuracy': 0.90825385, 'average_loss': 0.2731264, 'loss': 0.2730774, 'global_ste
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 
 
-###### Wealth 1
+##### Wealth 1
 ```
 accuracy                  1.000000
 accuracy_baseline         0.696972
@@ -161,7 +161,7 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78870884/118860285-35692880-b8a9-11eb-8822-c27b18b023a7.png)
 
 
-###### Wealth 2
+##### Wealth 2
 
 ```
 accuracy                  0.738200
@@ -182,11 +182,30 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78870884/118861840-f89e3100-b8aa-11eb-80df-f45f7ce5a4b5.png)
 
 
-###### Wealth 3
+##### Wealth 3
 
-###### Wealth 4
+```
+accuracy                  0.789631
+accuracy_baseline         0.789631
+auc                       0.675607
+auc_precision_recall      0.277711
+average_loss              0.442328
+label/mean                0.210369
+loss                      0.442328
+precision                 0.000000
+prediction/mean           0.218761
+recall                    0.000000
+global_step             100.000000
+```
 
-###### Wealth 5
+![image](https://user-images.githubusercontent.com/78870884/118862684-01dbcd80-b8ac-11eb-91e3-8ff8644362d6.png)
+
+![image](https://user-images.githubusercontent.com/78870884/118862771-191abb00-b8ac-11eb-9f3b-516ef3036e44.png)
+
+
+##### Wealth 4
+
+##### Wealth 5
 
 ```
 accuracy                  0.912000
