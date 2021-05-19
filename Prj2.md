@@ -258,9 +258,11 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78870884/118865124-a65f0f00-b8ae-11eb-87ae-c6e22a4371e6.png)
 
 
-Again, the results show that the gradient boosting model performs best predicting wealth groups 1 and 5. However, for all wealth groups, the gradient boosting model ROC curves had higher areas under the curve than other models, which indicates this model is the most accurate.
+Again, the results show that the gradient boosting model performs best predicting wealth groups 1 and 5.  But, it is important to note that the results of wealth group 1 indicate that the model predicted this group with 100% accuracy, so I was slightly suspicious of this result.  Also, for all wealth groups, the gradient boosting model ROC curves had larger areas under the curve than other models, which indicates this model is the most accurate.
 
 ### Analysis of 4 Models
 
 #### Analyze all four models. According to the evaluation metrics, which model produced the best results? Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
+
+Based on all the evaluation metrics, Model 4, the gradient boosting model, produced the best results. It had the largest AUC across all wealth outcomes as well as the highest accuracy. All 4 models performed best when predicting wealth groups 1 and 5 as opposed to wealth groups 2, 3, and 4. This is likely because the more extreme wealth groups are easier to identify than those in the middle categories.
 
