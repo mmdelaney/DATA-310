@@ -205,6 +205,25 @@ global_step             100.000000
 
 ##### Wealth 4
 
+```
+accuracy                  0.873828
+accuracy_baseline         0.873828
+auc                       0.714548
+auc_precision_recall      0.235693
+average_loss              0.341665
+label/mean                0.126172
+loss                      0.341665
+precision                 0.000000
+prediction/mean           0.135295
+recall                    0.000000
+global_step             100.000000
+```
+
+![image](https://user-images.githubusercontent.com/78870884/118864018-8da22980-b8ad-11eb-979c-2c5b9cc11506.png)
+
+![image](https://user-images.githubusercontent.com/78870884/118864084-a14d9000-b8ad-11eb-8241-e3bdccddc205.png)
+
+
 ##### Wealth 5
 
 ```
