@@ -86,7 +86,7 @@ The plot above shows that age is the most important factor in predicting a surve
 
 #### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. Then continue with your linear classifier adding the derived feature columns you have selected in order to extend capturing combinations of correlations (instead of learning on single model weights for each outcome). Again produce your ROC curves and interpret the results.
 
-###### Wealth 1
+##### Wealth 1
 ```
 'accuracy': 0.6883451, 'average_loss': 0.59280825, 'loss': 0.5929089, 'global_step': 11310
 'accuracy': 0.6947325, 'average_loss': 0.59023005, 'loss': 0.59037584, 'global_step': 11310
@@ -95,7 +95,7 @@ The plot above shows that age is the most important factor in predicting a surve
 ![image](https://user-images.githubusercontent.com/78870884/118855527-d7861200-b8a3-11eb-8821-d514bee26123.png)
 
 
-###### Wealth 2
+##### Wealth 2
 
 ```
 'accuracy': 0.73396933, 'average_loss': 0.57869893, 'loss': 0.5787238, 'global_step': 11310
@@ -105,7 +105,7 @@ The plot above shows that age is the most important factor in predicting a surve
 ![image](https://user-images.githubusercontent.com/78870884/118856281-c5f13a00-b8a4-11eb-9610-f9c749102692.png)
 
 
-###### Wealth 3
+##### Wealth 3
 
 ```
 'accuracy': 0.7888013, 'average_loss': 0.5132873, 'loss': 0.51334107, 'global_step': 11310
@@ -115,7 +115,7 @@ The plot above shows that age is the most important factor in predicting a surve
 ![image](https://user-images.githubusercontent.com/78870884/118857072-a3135580-b8a5-11eb-9c3d-81c2f9184843.png)
 
 
-###### Wealth 4
+##### Wealth 4
 
 ```
 'accuracy': 0.8763169, 'average_loss': 0.36728418, 'loss': 0.367226, 'global_step': 11310
@@ -125,7 +125,7 @@ The plot above shows that age is the most important factor in predicting a surve
 ![image](https://user-images.githubusercontent.com/78870884/118857768-6a27b080-b8a6-11eb-8fc4-dc1d77a32a26.png)
 
 
-###### Wealth 5
+##### Wealth 5
 
 ```
 'accuracy': 0.90825385, 'average_loss': 0.2762886, 'loss': 0.2762716, 'global_step': 11310
@@ -143,17 +143,22 @@ accuracy': 0.90825385, 'average_loss': 0.2731264, 'loss': 0.2730774, 'global_ste
 ###### Wealth 1
 ```
 accuracy                  1.000000
-accuracy_baseline         0.716000
+accuracy_baseline         0.696972
 auc                       1.000000
 auc_precision_recall      1.000000
-average_loss              0.089900
-label/mean                0.284000
-loss                      0.089900
+average_loss              0.091349
+label/mean                0.303028
+loss                      0.091349
 precision                 1.000000
-prediction/mean           0.296313
+prediction/mean           0.304993
 recall                    1.000000
 global_step             100.000000
 ```
+
+![image](https://user-images.githubusercontent.com/78870884/118860551-8a0ca380-b8a9-11eb-8e5e-6c5df613fd90.png)
+
+
+![image](https://user-images.githubusercontent.com/78870884/118860285-35692880-b8a9-11eb-8822-c27b18b023a7.png)
 
 
 ###### Wealth 2
