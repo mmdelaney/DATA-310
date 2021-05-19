@@ -145,6 +145,8 @@ The plot above shows that age is the most important factor in predicting a surve
 ![image](https://user-images.githubusercontent.com/78870884/118859052-cb03b880-b8a7-11eb-83df-e99e0310cb32.png)
 
 
+These results suggest that the logistic regression model performed slightly better than the previous models. However, the ROC curves show that, similar to the penalized logistic regression and random forest models, this model was better at predicting wealth groups 1 and 5 than groups 2, 3, and 4.
+
 
 ### Model 4 - Gradient Boosting
 
@@ -255,6 +257,8 @@ global_step             100.000000
 
 ![image](https://user-images.githubusercontent.com/78870884/118865124-a65f0f00-b8ae-11eb-87ae-c6e22a4371e6.png)
 
+
+Again, the results show that the gradient boosting model performs best predicting wealth groups 1 and 5. However, for all wealth groups, the gradient boosting model ROC curves had higher areas under the curve than other models, which indicates this model is the most accurate.
 
 ### Analysis of 4 Models
 
