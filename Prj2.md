@@ -227,19 +227,22 @@ global_step             100.000000
 ##### Wealth 5
 
 ```
-accuracy                  0.912000
-accuracy_baseline         0.912000
-auc                       0.786384
-auc_precision_recall      0.218301
-average_loss              0.260940
-label/mean                0.088000
-loss                      0.260940
+accuracy                  0.901120
+accuracy_baseline         0.901120
+auc                       0.755125
+auc_precision_recall      0.280141
+average_loss              0.283597
+label/mean                0.098880
+loss                      0.283597
 precision                 0.000000
-prediction/mean           0.101946
+prediction/mean           0.105340
 recall                    0.000000
 global_step             100.000000
 ```
 
+![image](https://user-images.githubusercontent.com/78870884/118865047-921b1200-b8ae-11eb-9a33-22bfeee2cba9.png)
+
+![image](https://user-images.githubusercontent.com/78870884/118865124-a65f0f00-b8ae-11eb-87ae-c6e22a4371e6.png)
 
 
 ### Analysis of 4 Models
