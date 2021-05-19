@@ -37,13 +37,13 @@ See the results of the top_models below:
 Based on just the top_models output, all the models between Model 1 and Model 10 have the same AUC of 0.607. So, with only this data, it is difficult to determine which specific model performed the best.
 
 
-See the plot of penalty vs area under the roc curve below:
+See the plot of penalty vs area under the ROC curve below:
 
 ![image](https://user-images.githubusercontent.com/78870884/117159799-94e61500-ad8e-11eb-8e51-ae0f4ad16b17.png) 
 
 #### Are you able to use the feature selection penalty to tune your hyperparameter and remove any potentially irrelevant predictors? Provide justification for your selected penalty value.
 
-Based on a number of factors, I selected model 8 with a penalty value of 0.000530. The results of top-models output were not definitive since models 1-10 were so similar, so I looked at the penalty vs. area under the roc curve plot above. I found that there was a slight drop-off in the graph at model 8, which suggests that this model was able to eliminate some irrelevant predictors.  I also looked at the ROC curves for each of the models, and I found that model 8 resulted in a slightly larger AUC than the other modelsm though this assessment was based on my eye-balled estimation.
+Based on a number of factors, I selected model 8 with a penalty value of 0.000530. The results of top-models output were not definitive since models 1-10 were so similar, so I looked at the penalty vs. area under the ROC curve plot above. I found that there was a slight drop-off in the graph at model 8, which suggests that this model was able to eliminate some irrelevant predictors.  I also looked at the ROC curves for each of the models, and I found that model 8 resulted in a slightly larger AUC than the other models, though this assessment was based on my eye-balled estimation.
 
 #### Finally, provide your ROC plots and interpret them. How effective is your penalized logistic regression model at predicting each of the five wealth outcomes?
 
@@ -51,7 +51,7 @@ See the ROC curves for model 8 (penalty 0.000530) below:
 ![image](https://user-images.githubusercontent.com/78870884/117162132-8698f880-ad90-11eb-8880-3e0ff360fc50.png)
 
 
-Looking at the ROC curves, the dotted diagonal lines show what each curve would be if the model predicted wealth with the same accuracy as it would predict by randomly guessing. Therefore, the further the ROC curve is from that middle 45 degree line, or the further the curve bends to the upper-left corner of the graph, the better the model can predict that wealth category. Based on the plots above, the model is clearly best at predicting wealth group 5, and is fairly decent at predicting wealth group 1 as well. This is interesting considering that wealth group 5 contains the wealthiest individuals and wealth group 1 contains the least wealthy individuals. The model is much worse at predicting wealth groups 2, 3, and 4. For wealth groups 2 and 3, the model's predictions were barely distinguishable from its random-guessing accuracy would have been. Therefore, the model is clearly much worse at predicting the middle-wealth categories.
+Looking at the ROC curves, the dotted diagonal lines show what each curve would be if the model predicted wealth with the same accuracy as it would predict by randomly guessing. Therefore, the further the ROC curve is from that middle 45 degree line, or the further the curve bends to the upper-left corner of the graph, the better the model can predict that wealth category. Based on the plots above, the model is clearly best at predicting wealth group 5, and is fairly decent at predicting wealth group 1 as well. This is interesting considering that wealth group 5 contains the wealthiest individuals and wealth group 1 contains the least wealthy individuals. The model is much worse at predicting wealth groups 2, 3, and 4. For wealth groups 2 and 3, the model's predictions were barely distinguishable from what its random-guessing accuracy would have been. Therefore, the model is clearly much worse at predicting the middle-wealth categories.
 
 ### Model 2 - Random Forest
 
@@ -258,11 +258,11 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78870884/118865124-a65f0f00-b8ae-11eb-87ae-c6e22a4371e6.png)
 
 
-Again, the results show that the gradient boosting model performs best predicting wealth groups 1 and 5.  But, it is important to note that the results of wealth group 1 indicate that the model predicted this group with 100% accuracy, so I was slightly suspicious of this result.  Also, for all wealth groups, the gradient boosting model ROC curves had larger areas under the curve than other models, which indicates this model is the most accurate.
+Again, the results show that the gradient boosting model performs best when predicting wealth groups 1 and 5.  But, it is important to note that the results of wealth group 1 indicate that the model predicted this group with 100% accuracy, so I was slightly suspicious of this result.  Also, for all wealth groups, the gradient boosting model ROC curves had larger areas under the curve than other models, which indicates this model is the most accurate.
 
 ### Analysis of 4 Models
 
 #### Analyze all four models. According to the evaluation metrics, which model produced the best results? Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
 
-Based on all the evaluation metrics, Model 4, the gradient boosting model, produced the best results. It had the largest AUC across all wealth outcomes as well as the highest accuracy. All 4 models performed best when predicting wealth groups 1 and 5 as opposed to wealth groups 2, 3, and 4. This is likely because the more extreme wealth groups are easier to identify than those in the middle categories.
+Based on all the evaluation metrics, Model 4, the gradient boosting model, produced the best results. It had the largest AUC across all wealth outcomes as well as the highest accuracy. All four models performed best when predicting wealth groups 1 and 5 as opposed to wealth groups 2, 3, and 4. This is likely because the more extreme wealth groups are easier to identify than those in the middle categories.
 
