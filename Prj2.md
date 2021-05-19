@@ -86,7 +86,7 @@ The plot above shows that age is the most important factor in predicting a surve
 
 #### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. Then continue with your linear classifier adding the derived feature columns you have selected in order to extend capturing combinations of correlations (instead of learning on single model weights for each outcome). Again produce your ROC curves and interpret the results.
 
-##### Wealth 1
+##### Wealth 1:
 ```
 'accuracy': 0.6883451 
 'average_loss': 0.59280825
@@ -97,7 +97,7 @@ The plot above shows that age is the most important factor in predicting a surve
 ![image](https://user-images.githubusercontent.com/78870884/118855527-d7861200-b8a3-11eb-8821-d514bee26123.png)
 
 
-##### Wealth 2
+##### Wealth 2:
 
 ```
 'accuracy': 0.73396933
@@ -109,7 +109,7 @@ The plot above shows that age is the most important factor in predicting a surve
 ![image](https://user-images.githubusercontent.com/78870884/118856281-c5f13a00-b8a4-11eb-9610-f9c749102692.png)
 
 
-##### Wealth 3
+##### Wealth 3:
 
 ```
 'accuracy': 0.7888013
@@ -121,7 +121,7 @@ The plot above shows that age is the most important factor in predicting a surve
 ![image](https://user-images.githubusercontent.com/78870884/118857072-a3135580-b8a5-11eb-9c3d-81c2f9184843.png)
 
 
-##### Wealth 4
+##### Wealth 4:
 
 ```
 'accuracy': 0.8763169
@@ -133,7 +133,7 @@ The plot above shows that age is the most important factor in predicting a surve
 ![image](https://user-images.githubusercontent.com/78870884/118857768-6a27b080-b8a6-11eb-8fc4-dc1d77a32a26.png)
 
 
-##### Wealth 5
+##### Wealth 5:
 
 ```
 'accuracy': 0.90825385
@@ -153,7 +153,7 @@ These results suggest that the logistic regression model performed slightly bett
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
 
 
-##### Wealth 1
+##### Wealth 1:
 ```
 accuracy                  1.000000
 accuracy_baseline         0.696972
@@ -174,7 +174,7 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78870884/118860285-35692880-b8a9-11eb-8822-c27b18b023a7.png)
 
 
-##### Wealth 2
+##### Wealth 2:
 
 ```
 accuracy                  0.738200
@@ -195,7 +195,7 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78870884/118861840-f89e3100-b8aa-11eb-80df-f45f7ce5a4b5.png)
 
 
-##### Wealth 3
+##### Wealth 3:
 
 ```
 accuracy                  0.789631
@@ -216,7 +216,7 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78870884/118862771-191abb00-b8ac-11eb-9f3b-516ef3036e44.png)
 
 
-##### Wealth 4
+##### Wealth 4:
 
 ```
 accuracy                  0.873828
@@ -237,7 +237,7 @@ global_step             100.000000
 ![image](https://user-images.githubusercontent.com/78870884/118864084-a14d9000-b8ad-11eb-8241-e3bdccddc205.png)
 
 
-##### Wealth 5
+##### Wealth 5:
 
 ```
 accuracy                  0.901120
