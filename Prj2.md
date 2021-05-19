@@ -155,13 +155,32 @@ recall                    1.000000
 global_step             100.000000
 ```
 
-![image](https://user-images.githubusercontent.com/78870884/118860551-8a0ca380-b8a9-11eb-8e5e-6c5df613fd90.png)
+![image](https://user-images.githubusercontent.com/78870884/118860801-cf30d580-b8a9-11eb-9542-308a8fd8c514.png)
 
 
 ![image](https://user-images.githubusercontent.com/78870884/118860285-35692880-b8a9-11eb-8822-c27b18b023a7.png)
 
 
 ###### Wealth 2
+
+```
+accuracy                  0.738200
+accuracy_baseline         0.738366
+auc                       0.770746
+auc_precision_recall      0.453652
+average_loss              0.464010
+label/mean                0.261634
+loss                      0.464010
+precision                 0.444444
+prediction/mean           0.272995
+recall                    0.002536
+global_step             100.000000
+```
+
+![image](https://user-images.githubusercontent.com/78870884/118861611-b248d200-b8aa-11eb-8605-bfad9371af93.png)
+
+![image](https://user-images.githubusercontent.com/78870884/118861840-f89e3100-b8aa-11eb-80df-f45f7ce5a4b5.png)
+
 
 ###### Wealth 3
 
